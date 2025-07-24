@@ -1,0 +1,135 @@
+
+4)Discuss the different types of operators in Python and provide examples of how they are used.
+Python has various operators that can be used to perform different operations. These operators can be categorized into several types:
+soln)
+***Arithmetic Operators***
+Arithmetic operators are used to perform mathematical operations.
+
+--> + (Addition): Adds two numbers.
+-->  - (Subtraction): Subtracts one number from another.
+-->  * (Multiplication): Multiplies two numbers.
+-->  / (Division): Divides one number by another.
+-->  // (Floor Division): Divides one number by another and returns the largest whole number.
+-->  % (Modulus): Returns the remainder of the division of one number by another.
+-->  ** (Exponentiation): Raises one number to the power of another.
+
+
+# Addition
+print(5 + 3)  # Output: 8
+
+# Subtraction
+print(5 - 3)  # Output: 2
+
+# Multiplication
+print(5 * 3)  # Output: 15
+
+# Division
+print(6 / 3)  # Output: 2.0
+
+# Floor Division
+print(7 // 3)  # Output: 2
+
+# Modulus
+print(7 % 3)  # Output: 1
+
+# Exponentiation
+print(2 ** 3)  # Output: 8
+
+______________________________________________________________________________________
+***Comparison Operators***
+Comparison operators are used to compare values.
+
+--> == (Equal): Checks if two values are equal.
+--> != (Not Equal): Checks if two values are not equal.
+--> > (Greater Than): Checks if one value is greater than another.
+--> < (Less Than): Checks if one value is less than another.
+--> >= (Greater Than or Equal): Checks if one value is greater than or equal to another.
+--> <= (Less Than or Equal): Checks if one value is less than or equal to another.
+
+Examples:-
+
+# Equal
+print(5 == 5)  # Output: True
+
+# Not Equal
+print(5 != 3)  # Output: True
+
+# Greater Than
+print(5 > 3)  # Output: True
+
+# Less Than
+print(3 < 5)  # Output: True
+
+# Greater Than or Equal
+print(5 >= 5)  # Output: True
+
+# Less Than or Equal
+print(3 <= 5)  # Output: True
+
+__________________________________________________________________________________________
+***Logical Operators***
+Logical operators are used to perform logical operations.
+
+- and (Logical And): Returns True if both conditions are true.
+- or (Logical Or): Returns True if at least one condition is true.
+- not (Logical Not): Returns the opposite of the condition.
+
+Examples:
+
+
+# Logical And
+print(5 > 3 and 5 < 7)  # Output: True
+
+# Logical Or
+print(5 > 3 or 5 < 3)  # Output: True
+
+# Logical Not
+print(not 5 > 3)  # Output: False
+
+_____________________________________________________________________________________________
+***Assignment Operators****
+Assignment operators are used to assign values to variables.
+
+- = (Assignment): Assigns a value to a variable.
+- += (Addition Assignment): Adds a value to a variable.
+- -= (Subtraction Assignment): Subtracts a value from a variable.
+- *= (Multiplication Assignment): Multiplies a variable by a value.
+- /= (Division Assignment): Divides a variable by a value.
+- //= (Floor Division Assignment): Divides a variable by a value and assigns the largest whole number.
+- %= (Modulus Assignment): Assigns the remainder of the division of a variable by a value.
+- **= (Exponentiation Assignment): Raises a variable to the power of value.
+
+Examples:
+
+# Assignment
+x = 5
+print(x)  # Output: 5
+
+# Addition Assignment
+x += 3
+print(x)  # Output: 8
+
+# Subtraction Assignment
+x -= 2
+print(x)  # Output: 6
+
+# Multiplication Assignment
+x *= 2
+print(x)  # Output: 12
+
+# Division Assignment
+x /= 2
+print(x)  # Output: 6.0
+
+___________________________________________________________________
+***Bitwise Operators***
+Bitwise operators are used to perform bitwise operations on integers.
+
+- & (Bitwise And): Performs a bitwise AND operation.
+- | (Bitwise Or): Performs a bitwise OR operation.
+- ^ (Bitwise XOR): Performs a bitwise XOR operation.
+- ~ (Bitwise NOT): Performs a bitwise NOT operation.
+- << (Left Shift): Shifts the bits of a number to the left.
+- >> (Right Shift)
+
+

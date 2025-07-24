@@ -1,0 +1,70 @@
+6). How do conditional statements work in Python? Illustrate with examples0
+Conditional statements are used to control the flow of a program based on certain conditions. Python provides several types of conditional statements:
+
+If Statement
+The if statement is used to execute a block of code if a certain condition is true.
+
+Example:
+
+
+# If statement
+x = 5
+if x > 10:
+    print("x is greater than 10")
+else:
+    print("x is less than or equal to 10")
+
+
+In this example, the if statement checks if x is greater than 10. If the condition is true, it prints "x is greater than 10". Otherwise, it prints "x is less than or equal to 10".
+
+If-Else Statement
+The if-else statement is used to execute one block of code if a condition is true and another block of code if the condition is false.
+Example:
+
+
+# If-else statement
+age = 25
+if age >= 18:
+    print("You are an adult")
+else:
+    print("You are a minor")
+
+
+In this example, the if-else statement checks if the age is greater than or equal to 18. If the condition is true, it prints "You are an adult". Otherwise, it prints "You are a minor".
+
+If-Elif-Else Statement
+The if-elif-else statement is used to check multiple conditions and execute different blocks of code based on those conditions.
+
+Example:
+
+# If-elif-else statement
+grade = 85
+if grade >= 90:
+    print("A grade")
+elif grade >= 80:
+    print("B grade")
+elif grade >= 70:
+    print("C grade")
+else:
+    print("F grade")
+
+In this example, the if-elif-else statement checks the grade and prints the corresponding grade letter.
+
+Nested If Statements
+Nested if statements are used to check multiple conditions within each other.
+
+Example:
+
+
+# Nested if statements
+x = 5
+y = 10
+if x > 0:
+    if y > 5:
+        print("Both x and y are positive and y is greater than 5")
+    else:
+	print("x is positive but y is not greater than 5")
+else:
+    print("x is not positive")
+
+

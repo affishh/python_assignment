@@ -1,0 +1,54 @@
+5). Explain the concept of type casting in Python with examples.
+Soln:-
+Type casting, also known as type conversion, is the process of converting one data type into another. Python provides two types of type casting: implicit and explicit.
+
+**Implicit Type Casting**
+Implicit type casting is performed automatically by Python when it encounters a mix of data types in an expression. Python converts the data type of one operand to match the data type of the other operand.
+
+Example:
+
+
+# Implicit type casting
+num_int = 5
+num_float = 3.5
+result = num_int + num_float
+print(result)  # Output: 8.5
+print(type(result))  # Output: <class 'float'>
+
+
+In this example, Python automatically converts the integer num_int to a float before performing the addition.
+_____________________________________________________________________________________________________________
+**Explicit Type Casting**
+Explicit type casting is performed manually by the programmer using built-in functions like int(), float(), str(), etc.
+
+Examples:
+
+# Explicit type casting to int
+num_float = 3.5
+num_int = int(num_float)
+print(num_int)  # Output: 3
+print(type(num_int))  # Output: <class 'int'>
+
+# Explicit type casting to float
+num_str = "3.5"
+num_float = float(num_str)
+print(num_float)  # Output: 3.5
+print(type(num_float))  # Output: <class 'float'>
+
+# Explicit type casting to string
+num_int = 5
+num_str = str(num_int)
+print(num_str)  # Output: "5"
+print(type(num_str))  # Output: <class 'str'>
+
+____________________________________________________
+Common Type Casting Functions
+
+Here are some common type casting functions in Python:
+
+- int(): Converts a value to an integer.
+- float(): Converts a value to a floating-point number.
+- str(): Converts a value to a string.
+- bool(): Converts a value to a boolean.
+- complex(): Converts a value to a complex number.
+

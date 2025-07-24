@@ -1,0 +1,68 @@
+2) Describe the role of predefined keywords in Python and provide examples of how they are used in a
+program.
+
+predefined keywords are reserved words that have special meanings and are used to define the structure and syntax of the language. These keywords cannot be used as variable names, function names, or any other identifiers.
+
+Predefined keywords play a crucial role in Python programming by:--
+
+** Defining control structures: Keywords like if, else, for, and while are used to control the flow of a program.
+** Defining functions and classes: Keywords like def and class are used to define functions and classes, which are essential building blocks of Python programs.
+** Handling exceptions: Keywords like try, except, and finally are used to handle exceptions and errors in a program.
+** Importing modules: Keywords like import and from are used to import modules and packages in Python.
+---------------------------------------------------------------------
+
+Examples of keywords used in python
+_________________________________
+1). Control flow with ''if'', "elif" and "else"
+
+x = 'afrin'
+if x[1:] == "frin":
+    print("The letters after first letter is frin ")
+elif x == ' ':
+    print("empty string ")
+else:
+    print("string passed is not afrin")
+_____________________________________
+
+2. Defining a function with  "def" and returning with "return"
+
+def addition(a, b):
+    return a + b
+    
+a= addition(10,30)
+print(a)
+_____________________________________
+
+3). Using loops "for", "in", "range"
+for i in range(10):	
+	print(i)
+
+_____________________________________
+
+4). Defining a Class with "class" keyword
+class Bank:
+	def __init__(self, balance):
+        	self.balance = balance
+
+	def  get_balance(self):
+		print("The balance remaining is:", self.balance)
+
+bank = Bank(1000)
+bank.get_balance()
+
+________________________________________
+
+5. Exception Handling with "try", "except"
+
+try:
+    result = 10 / 0
+except ZeroDivisionError:
+    print("Division by zero not allowed!")
+
+_______________________________________
+
+6). Importing libraries using import
+import os
+import math
+
+        	

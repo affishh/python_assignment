@@ -1,0 +1,94 @@
+7). Describe the different types of loops in Python and their use cases with examples.
+Soln:-
+Loops are used to execute a block of code repeatedly for a specified number of times. 
+Python provides two primary types of loops: for loops and while loops.
+
+For Loops
+for loops are used to iterate over a sequence (such as a list, tuple, or string) or other iterable objects. They allow you to execute a block of code for each item in the sequence.
+
+Example:
+
+
+# For loop example
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit)
+
+
+In this example, the for loop iterates over the fruits list and prints each fruit.
+
+*Use cases for for loops:*
+
+- Iterating over sequences (lists, tuples, strings)
+- Processing data in a collection
+- Performing repetitive tasks
+
+While Loops
+while loops are used to execute a block of code as long as a certain condition is true. They allow you to repeat a block of code while a condition is met.
+
+Example:
+
+
+# While loop example
+i = 0
+while i < 5:
+    print(i)
+    i += 1
+
+
+In this example, the while loop prints the numbers from 0 to 4.
+
+*Use cases for while loops:*
+
+- Repeating a task while a condition is true
+- Handling unknown number of iterations
+- Implementing game loops or simulations
+
+Nested Loops
+Nested loops are used to execute a block of code within another loop. They allow you to iterate over multiple sequences or perform complex repetitive tasks.
+
+Example:
+# Nested loop example
+colors = ["red", "green", "blue"]
+shapes = ["circle", "square", "triangle"]
+for color in colors:
+    for shape in shapes:
+        print(f"{color} {shape}")
+
+
+In this example, the nested for loops iterate over the colors and shapes lists and print each combination.
+
+Use cases for nested loops:
+
+- Iterating over multiple sequences
+- Performing complex repetitive tasks
+- Generating permutations or combinations
+
+Loop Control Statements
+Loop control statements are used to control the flow of loops. Python provides several loop control statements:
+
+- break: Exits the loop immediately.
+- continue: Skips the current iteration and continues with the next one.
+- pass: Does nothing and moves to the next statement.
+Examples:
+
+
+# Break statement example
+for i in range(5):
+    if i == 3:
+        break
+    print(i)
+
+# Continue statement example
+for i in range(5):
+    if i == 3:
+        continue
+    print(i)
+
+# Pass statement example
+for i in range(5):
+    pass
+    print(i)
+
+
+
